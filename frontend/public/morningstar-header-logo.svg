@@ -1,0 +1,16 @@
+<svg width="360" height="88" viewBox="0 0 360 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M44 68C56 53 68 36 76 14" stroke="#F59E0B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M34 69C51 63 65 52 77 36" stroke="#0B4F86" stroke-width="5" stroke-linecap="round"/>
+    <path d="M80 4L84.9 20.8L102 24L84.9 27.2L80 44L75.1 27.2L58 24L75.1 20.8L80 4Z" fill="#FBBF24"/>
+    <path d="M18 70V24L44 52L70 24V70" stroke="#0B2345" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <text x="118" y="40" fill="#0B2345" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900" letter-spacing="0.5">
+      Morningstar
+    </text>
+    <text x="118" y="66" fill="#F59E0B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="4">
+      ENTERPRISES
+    </text>
+  </g>
+</svg>
