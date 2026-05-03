@@ -1521,7 +1521,7 @@ h2 {
   align-content: start;
   display: grid;
   gap: 13px 24px;
-  grid-template-columns: repeat(4, max-content);
+  grid-template-columns: repeat(2, max-content);
   margin-bottom: auto;
   margin-top: auto;
 }
