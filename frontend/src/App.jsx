@@ -248,18 +248,15 @@ export default function App() {
           </div>
           <div className="tech-grid">
             {technologies.map((technology) => (
-              <span key={technology.label}>
-                <span className="tech-icon-stack">
+              <span key={technology.label} style={{ '--tech-color': `#${technology.color}` }}>
+                <span className="tech-icon" aria-hidden="true">
                   <img
-                    className="tech-icon tech-icon-muted"
                     src={`https://cdn.simpleicons.org/${technology.icon}/cbd1dc`}
-                    alt={technology.label}
+                    alt=""
                   />
                   <img
-                    className="tech-icon tech-icon-color"
                     src={`https://cdn.simpleicons.org/${technology.icon}/${technology.color}`}
                     alt=""
-                    aria-hidden="true"
                   />
                 </span>
                 <strong>{technology.label}</strong>

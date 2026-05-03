@@ -1301,45 +1301,33 @@ h2 {
   color: #aeb6c4;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 8px;
   justify-content: center;
-  min-height: 112px;
+  min-height: 10px;
   min-width: 0;
   text-align: center;
-}
-
-.tech-icon-stack {
-  display: grid;
-  height: 56px;
-  place-items: center;
-  width: 56px;
+  transition: color 180ms ease, transform 180ms ease;
 }
 
 .tech-icon {
-  grid-area: 1 / 1;
-  transition:
-    opacity 180ms ease,
-    transform 180ms ease;
-}
-
-.tech-grid img {
   display: block;
   height: 56px;
-  opacity: 0.9;
+  position: relative;
   width: 56px;
 }
 
-.tech-icon-color {
-  opacity: 0;
+.tech-icon img {
+  inset: 0;
+  display: block;
+  height: 56px;
+  opacity: 0.9;
+  position: absolute;
+  transition: opacity 180ms ease, transform 180ms ease;
+  width: 56px;
 }
 
-.tech-grid span:hover .tech-icon-muted {
+.tech-icon img:nth-child(2) {
   opacity: 0;
-}
-
-.tech-grid span:hover .tech-icon-color {
-  opacity: 1;
-  transform: scale(1.08);
 }
 
 .tech-grid strong {
@@ -1347,6 +1335,28 @@ h2 {
   font-size: 1.08rem;
   font-weight: 800;
   line-height: 1.35;
+  transition: color 180ms ease;
+}
+
+.tech-grid span:hover {
+  color: var(--tech-color);
+  transform: translateY(-4px);
+}
+
+.tech-grid span:hover .tech-icon img {
+  transform: scale(1.08);
+}
+
+.tech-grid span:hover .tech-icon img:first-child {
+  opacity: 0;
+}
+
+.tech-grid span:hover .tech-icon img:nth-child(2) {
+  opacity: 1;
+}
+
+.tech-grid span:hover strong {
+  color: var(--tech-color);
 }
 
 .tech-grid span:nth-child(11) {
