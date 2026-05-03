@@ -316,12 +316,6 @@ export default function App() {
               Engineering Excellence
               <span>One Roadmap at a Time</span>
             </h2>
-            <div className="footer-socials" aria-label="Social links">
-              <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noreferrer">f</a>
-              <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer">◎</a>
-              <a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noreferrer">⌘</a>
-              <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noreferrer">in</a>
-            </div>
           </div>
 
           <nav className="footer-column" aria-label="Work with us">

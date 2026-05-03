@@ -1517,23 +1517,6 @@ h2 {
   color: #fbbf24;
 }
 
-.footer-socials {
-  display: flex;
-  gap: 18px;
-}
-
-.footer-socials a {
-  align-items: center;
-  color: #ffffff;
-  display: inline-flex;
-  font-size: 1.25rem;
-  font-weight: 800;
-  height: 24px;
-  justify-content: center;
-  text-decoration: none;
-  width: 24px;
-}
-
 .footer-column {
   align-content: start;
   display: grid;
@@ -1560,7 +1543,6 @@ h2 {
 }
 
 .footer-column a:hover,
-.footer-socials a:hover,
 .footer-bottom a:hover {
   color: #fbbf24;
 }
