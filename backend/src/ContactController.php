@@ -82,7 +82,7 @@ final class ContactController
             return;
         }
 
-        $to = (string) $this->config->get('CONTACT_TO', 'kevin.harris.0112@gmail.com');
+        $to = (string) $this->config->get('CONTACT_TO', 'hr@withmorningstar.com');
         $from = (string) $this->config->get('CONTACT_FROM', 'no-reply@morningstar-enterprises.local');
         $subject = 'New Morningstar Enterprises website inquiry';
         $body = sprintf(

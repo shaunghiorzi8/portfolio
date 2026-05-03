@@ -58,7 +58,7 @@ DB_DATABASE=morningstar_enterprises
 DB_USERNAME=root
 DB_PASSWORD=
 FRONTEND_ORIGIN=http://localhost:5173
-CONTACT_TO=kevin.harris.0112@gmail.com
+CONTACT_TO=hr@withmorningstar.com
 MAIL_ENABLED=false
 ```
 

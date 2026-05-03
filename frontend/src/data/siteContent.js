@@ -1,6 +1,6 @@
 export const company = {
   name: 'Morningstar Enterprises',
-  email: 'kevin.harris.0112@gmail.com',
+  email: 'hr@withmorningstar.com',
   phone: '+1 (555) 014-2026',
   location: 'United States',
 };
