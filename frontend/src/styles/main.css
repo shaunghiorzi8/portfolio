@@ -1520,7 +1520,8 @@ h2 {
 .footer-column {
   align-content: start;
   display: grid;
-  gap: 13px;
+  gap: 13px 24px;
+  grid-template-columns: repeat(4, max-content);
   margin-bottom: auto;
   margin-top: auto;
 }
@@ -1528,6 +1529,7 @@ h2 {
 .footer-column h3 {
   color: #f5a623;
   font-size: 1.35rem;
+  grid-column: 1 / -1;
   margin: 0 0 4px;
 }
 
