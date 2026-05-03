@@ -249,10 +249,19 @@ export default function App() {
           <div className="tech-grid">
             {technologies.map((technology) => (
               <span key={technology.label}>
-                <img
-                  src={`https://cdn.simpleicons.org/${technology.icon}/cbd1dc`}
-                  alt={technology.label}
-                />
+                <span className="tech-icon-stack">
+                  <img
+                    className="tech-icon tech-icon-muted"
+                    src={`https://cdn.simpleicons.org/${technology.icon}/cbd1dc`}
+                    alt={technology.label}
+                  />
+                  <img
+                    className="tech-icon tech-icon-color"
+                    src={`https://cdn.simpleicons.org/${technology.icon}/${technology.color}`}
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </span>
                 <strong>{technology.label}</strong>
               </span>
             ))}

@@ -1308,11 +1308,38 @@ h2 {
   text-align: center;
 }
 
+.tech-icon-stack {
+  display: grid;
+  height: 56px;
+  place-items: center;
+  width: 56px;
+}
+
+.tech-icon {
+  grid-area: 1 / 1;
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
 .tech-grid img {
   display: block;
   height: 56px;
   opacity: 0.9;
   width: 56px;
+}
+
+.tech-icon-color {
+  opacity: 0;
+}
+
+.tech-grid span:hover .tech-icon-muted {
+  opacity: 0;
+}
+
+.tech-grid span:hover .tech-icon-color {
+  opacity: 1;
+  transform: scale(1.08);
 }
 
 .tech-grid strong {

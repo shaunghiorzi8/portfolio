@@ -78,19 +78,19 @@ export const processSteps = [
 ];
 
 export const technologies = [
-  { label: 'iOS Developer', icon: 'apple' },
-  { label: 'Android Developer', icon: 'android' },
-  { label: 'ReactJS Developer', icon: 'react' },
-  { label: 'VueJS Developer', icon: 'vuedotjs' },
-  { label: 'ReactNative Developer', icon: 'react' },
-  { label: 'Flutter Developer', icon: 'flutter' },
-  { label: 'Java Developer', icon: 'openjdk' },
-  { label: 'PHP Developer', icon: 'php' },
-  { label: 'Golang Developer', icon: 'go' },
-  { label: 'NodeJS Developer', icon: 'nodedotjs' },
-  { label: '.NET Developer', icon: 'dotnet' },
-  { label: 'NextJS Developer', icon: 'nextdotjs' },
-  { label: 'Swift (iOS) Developer', icon: 'swift' },
+  { label: 'iOS Developer', icon: 'apple', color: '000000' },
+  { label: 'Android Developer', icon: 'android', color: '3DDC84' },
+  { label: 'ReactJS Developer', icon: 'react', color: '61DAFB' },
+  { label: 'VueJS Developer', icon: 'vuedotjs', color: '4FC08D' },
+  { label: 'ReactNative Developer', icon: 'react', color: '61DAFB' },
+  { label: 'Flutter Developer', icon: 'flutter', color: '02569B' },
+  { label: 'Java Developer', icon: 'openjdk', color: '000000' },
+  { label: 'PHP Developer', icon: 'php', color: '777BB4' },
+  { label: 'Golang Developer', icon: 'go', color: '00ADD8' },
+  { label: 'NodeJS Developer', icon: 'nodedotjs', color: '5FA04E' },
+  { label: '.NET Developer', icon: 'dotnet', color: '512BD4' },
+  { label: 'NextJS Developer', icon: 'nextdotjs', color: '000000' },
+  { label: 'Swift (iOS) Developer', icon: 'swift', color: 'F05138' },
 ];
 
 export const portfolioLinks = [
